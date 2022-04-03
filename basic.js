@@ -17,7 +17,7 @@ function productComponent(computer, watch, coffee) {
 }
 
 let totalProductPrice = productComponent(2, 2, 2);
-// console.log(totalProductPrice);
+console.log(totalProductPrice);
 
 // problem no:2
 var products = [
@@ -51,6 +51,9 @@ for(const product of products){
   if(product.title === 'Mobile'){
      console.log(product)
   }
+  else{
+    'Product Not Found';
+  }
 }
 
 // problem no: 3
@@ -76,4 +79,4 @@ function isLeapYear(year) {
 }
 
 const myYearMoney = isLeapYear(2022);
-// console.log(myYearMoney);
+console.log(myYearMoney);

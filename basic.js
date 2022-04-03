@@ -22,51 +22,36 @@ let totalProductPrice = productComponent(2, 2, 2);
 // problem no:2
 var products = [
   {
-    id: 1,
-    title: "laptop",
-    price: 567,
-    description:
-      "Laptop Lorem ipsum dolor sit amet consectetur adipiscing elit, magna etiam fermentum accumsan rhoncus ullamcorper",
+      id: 1,
+      title: "laptop",
+      price: 567,
+      description: "Laptop Lorem ipsum dolor sit amet consectetur adipiscing elit, magna etiam fermentum accumsan rhoncus ullamcorper"
   },
   {
-    id: 2,
-    title: "Mobile",
-    price: 367,
-    description:
-      "Mobile Lorem ipsum dolor sit amet consectetur adipiscing elit, magna etiam fermentum accumsan rhoncus ullamcorper",
+      id: 2,
+      title: "Mobile",
+      price: 367,
+      description: "Mobile Lorem ipsum dolor sit amet consectetur adipiscing elit, magna etiam fermentum accumsan rhoncus ullamcorper"
   },
   {
-    id: 3,
-    title: "Watch",
-    price: 180,
-    description:
-      "Watch Lorem ipsum dolor sit amet consectetur adipiscing elit, magna etiam fermentum accumsan rhoncus ullamcorper",
+      id: 3,
+      title: "Watch",
+      price: 180,
+      description: "Watch Lorem ipsum dolor sit amet consectetur adipiscing elit, magna etiam fermentum accumsan rhoncus ullamcorper"
   },
   {
-    id: 4,
-    title: "Coffee",
-    price: 40,
-    description:
-      "Coffee Lorem ipsum dolor sit amet consectetur adipiscing elit, magna etiam fermentum accumsan rhoncus ullamcorper",
+      id: 4,
+      title: "Coffee",
+      price: 40,
+      description: "Coffee Lorem ipsum dolor sit amet consectetur adipiscing elit, magna etiam fermentum accumsan rhoncus ullamcorper"
   },
-];
-// if (products.some((product) => product.title === "laptop")) {
-//   return'Object found inside the array';
-// } 
-// else {
-//   return'Object not found"';
-// }
 
-console.log(products[0].title);
-// var __FOUND = products.findIndex(function(product, index) {
-// 	if(product.title ==  'laptop')
-// 		return true;
-//     else{
-//       return'Product Not Found ';
-//     }
-// });
-// console.log(__FOUND[0]);
-// console.log(products.pandaCost);
+];
+for(const product of products){
+  if(product.title === 'Mobile'){
+     console.log(product)
+  }
+}
 
 // problem no: 3
 function isLeapYear(year) {
